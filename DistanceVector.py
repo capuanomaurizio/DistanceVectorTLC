@@ -80,9 +80,9 @@ def create_network():
     """
     # Ogni nodo ha un dizionario che rappresenta i suoi vicini e i costi per raggiungerli
     node_a = Node('A', {'B': 1, 'C': 4})
-    node_b = Node('B', {'A': 1, 'C': 2, 'D': 2})
-    node_c = Node('C', {'A': 4, 'B': 2, 'D': 5})
-    node_d = Node('D', {'B': 2, 'C': 5})
+    node_b = Node('B', {'A': 1, 'C': 2, 'D': 5})
+    node_c = Node('C', {'A': 4, 'B': 2, 'D': 1})
+    node_d = Node('D', {'B': 5, 'C': 1})
     
     # Lista di nodi
     nodes = [node_a, node_b, node_c, node_d]
